@@ -1,0 +1,161 @@
+.voting {
+  margin-top: 350px;
+  background-color: rgb(0, 0, 0);
+  height: 100vh;
+}
+
+.loading {
+  margin-top: 48px;
+  display: flex;
+  width: 80vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  width: 90%;
+}
+
+.menu {
+  margin-left: 1.6rem;
+}
+
+.contentProposal {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 26px;
+  width: 60vw;
+  left: 20vw;
+  position: absolute;
+}
+
+.proposal {
+  margin-bottom: 40px;
+}
+
+.votesDiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.backHome {
+  display: flex;
+  justify-content: start;
+  margin-bottom: 20px;
+  font-size: 12px;
+  align-items: center;
+  gap: 2px;
+}
+
+.proposalOverview {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.proposer {
+  display: flex;
+  font-size: 12px;
+  gap: 10px;
+  color: rgba(0, 0, 0, 0.5);
+  align-items: center;
+}
+
+.tabContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 98%;
+  padding: 1.5rem;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.contentPageProposal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 98%;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.description {
+  text-align: center;
+}
+.description-proposal {
+  color:white;
+  display: block !important;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 10px;
+  border-width: 3px;
+  border-color: #fbff00;
+  border-style: solid;
+}
+.titulo-proposal {
+  display: block !important;
+  margin-left: 55px;
+
+}
+.titulo-proposal2 {
+  margin-top: -44px;
+}
+.titulo-proposal3 {
+  display: inline-block !important;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.table {
+  width: 100%;
+}
+
+.widgets {
+  display: flex;
+  justify-content: space-between;
+  gap: 6px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 120px;
+}
+
+.widget {
+  border: 1px solid red;
+}
+
+.extraWidgetInfo {
+  color: rgb(0, 0, 0);
+  font-size: 12px;
+  width: 25%;
+  margin-top: 10px;
+}
+
+.extraTitle {
+  display: flex;
+  justify-content: end;
+}
+
+.progress {
+  margin-top: 20px;
+  height: 8px;
+  background-color: rgb(222, 222, 222);
+  border-radius: 4px;
+}
+
+.progressPercentage {
+  height: 8px;
+  background-color: rgba(6, 158, 252, 0.5);
+  border-radius: 4px;
+}

@@ -1,0 +1,45 @@
+
+@font-face {
+  font-family: 'National2CompressedMedium';
+  src: local('National2CompressedMedium'), url(./National2CompressedMedium/National2CompressedMedium.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'National2CompressedRegular';
+    src: local('National2CompressedRegular'), url(./National2CompressedMedium/National2Compressed-Regular.otf) format('opentype');
+  }
+
+  @font-face {
+    font-family: 'SpaceGroteskLight';
+    src: local('SpaceGroteskLight'), url(./Space_Grotesk/static/SpaceGrotesk-Light.ttf) format('opentype');
+  }
+.National2CompressedMedium{
+    font-family: National2CompressedMedium;
+}
+
+.SpaceGroteskLight{
+    font-family: SpaceGroteskLight;
+}
+
+.National2CompressedRegular{
+    font-family: National2CompressedRegular;
+}
+
+.FS36px{
+    font-size: 36px;
+}
+
+.FS56px{
+    font-size: 56px;
+    color: #fbff00;
+
+}
+
+
+.FS16px{
+    font-size: 16px;
+}
+.FS16px-yellow{
+    font-size: 16px;
+    color: #fbff00;
+}

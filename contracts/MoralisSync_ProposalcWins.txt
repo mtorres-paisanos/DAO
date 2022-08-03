@@ -1,0 +1,24 @@
+DESCRIPTION
+Winners Proposals
+
+
+TOPIC
+proposalWin(uint256 , string, uint256)
+
+ABI
+{
+    "anonymous": false,
+    "inputs": [
+      { "indexed": false, "internalType": "uint256", "name": "id", "type": "uint256" },
+      { "indexed": false, "internalType": "string", "name": "description", "type": "string" },
+      { "indexed": false, "internalType": "uint256", "name": "votes", "type": "uint256" }
+    ],
+    "name": "proposalWin",
+    "type": "event"
+  }
+
+ADDRESS
+0xD7ba51c28C81f1Cb1c48579de834525Eb279fDF9
+
+TableName
+WinnersProposals

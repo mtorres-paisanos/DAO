@@ -1,0 +1,21 @@
+DESCRIPTION
+Voters
+
+TOPIC
+voter(uint256, address)
+
+ABI
+ {
+    "anonymous": false,
+    "inputs": [
+      { "indexed": false, "internalType": "uint256", "name": "id", "type": "uint256" },
+      { "indexed": false, "internalType": "address", "name": "voter", "type": "address" }
+    ],
+    "name": "voter",
+    "type": "event"
+  }
+ADDRESS
+0xD7ba51c28C81f1Cb1c48579de834525Eb279fDF9
+
+TableName
+Voter

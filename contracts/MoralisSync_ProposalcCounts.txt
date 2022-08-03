@@ -1,0 +1,36 @@
+DESCRIPTION
+Count votes
+
+
+TOPIC
+proposalCount(uint256 , bool )
+
+
+ABI
+{
+  "anonymous": false,
+  "inputs": [
+    {
+      "indexed": false,
+      "internalType": "uint256",
+      "name": "id",
+      "type": "uint256"
+    },
+    {
+      "indexed": false,
+      "internalType": "bool",
+      "name": "passed",
+      "type": "bool"
+    }
+  ],
+  "name": "proposalCount",
+  "type": "event"
+}
+
+ADDRESS
+0xE22CaF938CDE6176d0566AD4e7a8ad7A13DfcA88
+
+
+TableName
+ProposalCounts
+

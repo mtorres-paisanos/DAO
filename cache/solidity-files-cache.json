@@ -1,0 +1,77 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/home/manuel/Escritorio/dao/smart-contract-dao/contracts/Dao.sol": {
+      "lastModificationDate": 1656953691995,
+      "contentHash": "3fc7a7283b8bac0f4ae43608ebcde2c0",
+      "sourceName": "contracts/Dao.sol",
+      "solcConfig": {
+        "version": "0.8.7",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "Dao",
+        "IdaoContract"
+      ]
+    },
+    "/home/manuel/Escritorio/dao dinamico/lab-dao-smart-contract/contracts/Dao.sol": {
+      "lastModificationDate": 1659115527176,
+      "contentHash": "4550a5b06ea798a612d057b3a2b98b57",
+      "sourceName": "contracts/Dao.sol",
+      "solcConfig": {
+        "version": "0.8.7",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "Dao",
+        "IdaoContract"
+      ]
+    }
+  }
+}

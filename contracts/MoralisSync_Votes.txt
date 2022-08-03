@@ -1,0 +1,22 @@
+DESCRIPTION
+Vote Count
+
+TOPIC
+newVote(address , uint256 )
+
+ABI
+ {
+    "anonymous": false,
+    "inputs": [
+      { "indexed": false, "internalType": "address", "name": "voter", "type": "address" },
+      { "indexed": false, "internalType": "uint256", "name": "proposal", "type": "uint256" }
+    ],
+    "name": "newVote",
+    "type": "event"
+  }
+
+ADDRESS
+0xD7ba51c28C81f1Cb1c48579de834525Eb279fDF9
+
+TableName
+Votes

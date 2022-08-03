@@ -1,0 +1,29 @@
+DESCRIPTION
+New Proposals Created
+
+
+TOPIC
+proposalCreated(uint256,string,uint256,address)
+
+ABI
+{
+    "anonymous": false,
+    "inputs": [
+      { "indexed": false, "internalType": "uint256", "name": "id", "type": "uint256" },
+      { "indexed": false, "internalType": "string", "name": "description", "type": "string" },
+      { "indexed": false, "internalType": "uint256", "name": "votes", "type": "uint256" },
+      { "indexed": false, "internalType": "address", "name": "proposer", "type": "address" }
+    ],
+    "name": "proposalCreated",
+    "type": "event"
+  }
+
+
+
+
+SMART CONTRACT DIR
+0xD7ba51c28C81f1Cb1c48579de834525Eb279fDF9
+
+
+TABLE NAME
+Proposals
